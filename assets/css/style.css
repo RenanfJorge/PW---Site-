@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--font-title: "Montserrat", sans-serif;
+--font-body: "Poppins", sans-serif;
+--destak-color: #ff00ff;
+--colur: #ffffff;
+
+}
+
+
+div::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(233, 3, 233);
+    width: 1300px;
+    height: 830px;
+    z-index: -1;
+    background-image: url(../Images/background-hero.png) ;
+    animation: zoom 2s;
+    /* display: block;  */
+    /* opacity: .2; */
+}
+
+div a{
+    display: inline;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    margin: 0 5.4rem 0 5.4rem;
+    background: linear-gradient(#F300EA, #0066FF);
+    border: 3px solid;
+    transition: 0.25s;
+    
+}
+
+div a:hover{
+    background: none;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+h1{
+    color: var(--colur);
+    font-family: var(--font-title);
+    font-size: 2.5rem;
+    text-shadow: 1px 5px 6px rgba(255, green, 255, alpha);
+    margin: 0 5.4rem 0 5.4rem;
+}
+
+span{
+    display: block;
+    color: var(--destak-color);
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0.5rem 5.4rem 2rem 5.4rem;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+div a #iconskull{
+
+    font-size: ;
+
+}
+
